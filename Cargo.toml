@@ -1,0 +1,10 @@
+[package]
+name = "desert-defence"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.7", features = ["dynamic"] }
+bevy_ecs_ldtk = "0.3"
+bevy-inspector-egui = "0.11"
+rand = "0.8"
